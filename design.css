@@ -4,5 +4,5 @@ header{
 
 @font-face {
     font-family: Xisfani;
-    src: url(Xisfani.ttf);
+    src: url('Xisfani.ttf');
 }
