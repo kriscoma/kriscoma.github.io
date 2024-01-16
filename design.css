@@ -40,7 +40,7 @@ h1{
 
 }
 h2{
-    color:lightcoral;
+    color:#ff9999;
     font-family: Xisfani;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -48,7 +48,7 @@ h2{
     left: 50%;}
 
     p{
-        color:olivedrab;
+        color:#4d9900;
         font-family:peach_cake}
         @font-face {
             font-family: peach_cake;
