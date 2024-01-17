@@ -60,5 +60,5 @@ h2{
     src: url('Xisfani.ttf');
 }
 body {
-    cursor: url('pawcursor.png'), auto;
+    cursor: url('pawcursor.png'), ('catpaws.png'), ('facebb.jpeg'), auto; 
 }
