@@ -61,4 +61,5 @@ h2{
 }
 body {
     cursor: url('pawcursor.png'), ('catpaws.png'), ('facebb.jpeg'), auto; 
+    background-color:#000000;
 }
