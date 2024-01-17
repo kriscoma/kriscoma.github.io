@@ -40,7 +40,7 @@ h1{
 
 }
 h2{
-    color:#ff9999;
+    color:lightcoral;
     font-family: Xisfani;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -48,7 +48,7 @@ h2{
     left: 50%;}
 
     p{
-        color:#4d9900;
+        color:olivedrab;
         font-family:peach_cake}
         @font-face {
             font-family: peach_cake;
@@ -58,4 +58,7 @@ h2{
 @font-face {
     font-family: Xisfani;
     src: url('Xisfani.ttf');
+}
+body {
+    cursor: url('pawcursor.png'), auto;
 }
