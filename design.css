@@ -79,5 +79,5 @@ body {
 }
 
 html {
-    cursor: url('https://github.com/kriscoma/kriscoma.github.io/blob/main/pawcursor.png'), auto; 
+    cursor: url('/blob/main/pawcursor.png'); 
 }
