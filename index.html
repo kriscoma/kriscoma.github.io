@@ -19,19 +19,21 @@
     <p><img src="Jasper_Print.jpeg" alt="A grey tabby cat coyly tilting head"></p>
 
     <p>This is one of Jasper's <a href="https://www.youtube.com/watch?v=IXaMF4FqIkM">favorite songs</a></p>
-    <audio id="backgroundAudio" src="meow.mp3" loop controls></audio>
+    <video id="backgroundVideo" loop autoplay>
+    <source src="meow.mp3" type="audio/mpeg">
+    Your browser does not support the video tag.
+</video>
      <p>Note on website elements: I used HTML and CSS to change font styles and colors, modify the tab name, add an image, embed automatic looping background music (works best on Firefox with audio unblocked), and link a YouTube video</p>
 </div>
     
 
    
 <script>
-        // Play audio when the document is fully loaded
-        document.addEventListener('DOMContentLoaded', function () {
-            var audio = document.getElementById('backgroundAudio');
-            audio.play();
-        });
-    </script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var video = document.getElementById('backgroundVideo');
+        video.play();
+    });
+</script>
 
 </body>
 
