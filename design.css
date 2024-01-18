@@ -76,8 +76,9 @@ h2{
 }
 body {
     background-color:#000000;
+    cursor: url('cursor.cur');
 }
 
 html {
-    cursor: url('pawcursor.png'); 
+    cursor: url('cursor.cur'); 
 }
