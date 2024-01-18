@@ -1,10 +1,10 @@
 body {
     background-color: #000000;
-    cursor: url('pawcursor.png'), auto;
+    cursor: url('catpaw.png'), auto;
 }
 
 html {
-    cursor: url('pawcursor.png'), auto;
+    cursor: url('catpaw.png'), auto;
 }
 
 h1 {
