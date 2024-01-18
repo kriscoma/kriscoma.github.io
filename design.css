@@ -76,9 +76,9 @@ h2{
 }
 body {
     background-color:#000000;
-    cursor: url('cursor.cur');
+    cursor: url('cursor.cur'), auto;
 }
 
 html {
-    cursor: url('cursor.cur'); 
+    cursor: url('cursor.cur'), auto; 
 }
