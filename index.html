@@ -23,6 +23,13 @@
     <audio src="meow.mp3" loop autoplay controls></audio>
 
     <p>Note on website elements: I used HTML and CSS to change font styles and colors, modify the tab name, add an image, embed automatic looping background music (works best on Firefox with audio unblocked), and link a YouTube video</p>
+<script>
+        // Play audio when the document is fully loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            var audio = document.getElementById('backgroundAudio');
+            audio.play();
+        });
+    </script>
 
 </body>
 
