@@ -75,6 +75,9 @@ h2{
     src: url('Xisfani.ttf');
 }
 body {
-    cursor: url('pawcursor.png'), ('catpaws.png'), ('facebb.jpeg'), auto; 
     background-color:#000000;
+}
+
+html {
+    cursor: url('https://github.com/kriscoma/kriscoma.github.io/blob/main/pawcursor.png'), auto; 
 }
