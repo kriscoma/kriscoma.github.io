@@ -28,38 +28,6 @@
 </div>
     
 
-   
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var video = document.getElementById('backgroundVideo');
-        video.play();
-    });
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API in HTML Example</title>
-</head>
-<body>
-
-<h1>Random Activity Generator</h1>
-<button onclick="getRandomActivity()">Get Random Activity</button>
-<p id="activity"></p>
-
-<script>
-    function getRandomActivity() {
-        // Make a GET request to the Bored API
-        fetch('https://api.thecatapi.com/v1/images/search')
-            .then(response => response.json())
-            .then(data => {
-                // Update the HTML content with the activity suggestion
-                document.getElementById('activity').textContent = data.activity;
-            })
-            .catch(error => console.error('Error:', error));
-    }
-</script>
-
 </body>
 </html>
 
