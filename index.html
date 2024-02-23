@@ -35,6 +35,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cat Image Generator</title>
+</head>
+<body>
+
+<h1>Random Cat Image Generator</h1>
+<button onclick="getRandomCatImage()">Get Random Cat Image</button>
+<img id="catImage" alt="Random Cat Image">
+
+<script>
+    function getRandomCatImage() {
+        // Make a GET request to the Cat API
+        fetch('https://api.thecatapi.com/v1/images/search')
+            .then(response => response.json())
+            .then(data => {
+                // Update the HTML content with the cat image
+                const catImageElement = document.getElementById('catImage');
+                catImageElement.src = data[0].url;
+                catImageElement.alt = 'Random Cat Image';
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API in HTML Example</title>
 </head>
 <body>
